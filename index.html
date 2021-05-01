@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+</head>
+<body>
+    <h1 id="core"></h1>
+    <h2 class="threads"></h2>
+    <h3 class="threads"></h3>
+    <p class="threads"></p>
+
+
+
+     <script>
+         //common java;
+        document.write("hello world");
+        document.write("<br>");
+        document.write("<br>");
+        window.alert("welcome to the world of javascript");
+        console.log("OOOOOpppS");
+        
+        //output java;
+        document.getElementById('core').innerHTML = "happy ramadan";
+        document.getElementById('core').style.backgroundColor = "pink";
+        document.getElementById('core').style.color = "purple";
+        document.getElementById('core').style.textTransform = "capitalize";
+        document.getElementsByClassName('threads')[0].innerHTML= "game bar";
+        document.getElementsByClassName('threads')[2].innerHTML= "coffee bar";
+
+        //variable;
+        var addition = 50 + 20;
+        var additionX = '500' + 700;
+        var subtraction = 200 - 50;
+        var multiply = 100 * 9;
+        var division = 500 / 10;
+        document.write(addition);
+        document.write("<br>"); 
+        document.write(additionX);
+        document.write("<br>");
+        document.write(subtraction);
+        document.write("<br>");
+        document.write(multiply);
+        document.write("<br>");
+        document.write(division);
+
+        //concate -- string;
+        var word1 = "best"
+        var word2 = "of"
+        var word3 = "luck"
+        var fullWord = word1 + " " + word2 + " " + word3
+        document.getElementsByClassName('threads')[1].innerHTML= fullWord;
+    </script>
+</body>
+</html>

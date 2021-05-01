@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+img{
+    vertical-align: middle;
+}
+.clr{
+    clear: both;
+}
+/* common css ends */
+#core {
+    background: violet;
+    color: purple;
+    text-transform: capitalize;
+} 
